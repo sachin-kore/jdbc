@@ -1,0 +1,23 @@
+package sachin;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Anagram {
+
+	public static void main(String[] args) {
+		int len1,len2;
+		String str1,str2;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the two strings:");
+		str1=sc.nextLine();
+		System.out.println("enter the value of str2:");
+		str2=sc.nextLine();
+		len1=str1.length();
+		len2=str2.length();
+		sc.close();
+   
+	    System.out.print(Arrays.sort(str1.toCharArray()));;
+		
+	}
+}

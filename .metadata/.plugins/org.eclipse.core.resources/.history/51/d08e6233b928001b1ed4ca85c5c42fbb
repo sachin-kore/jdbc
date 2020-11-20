@@ -1,0 +1,13 @@
+package sachin;
+
+public class Vowels {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str="my name is sachin";
+		length=str.length();
+		System.out.println(length);
+
+	}
+
+}
